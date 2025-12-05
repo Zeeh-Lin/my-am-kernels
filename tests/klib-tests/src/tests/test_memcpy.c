@@ -20,4 +20,5 @@ void test_memcpy() {
       }
     }
   }
+  puts("test_memcpy() pass.\n");
 }
