@@ -1,5 +1,6 @@
 .PHONY: all run gdb clean latest $(ALL)
 
+ARCH  ?= riscv32-npc
 RESULT = .result
 $(shell > $(RESULT))
 
