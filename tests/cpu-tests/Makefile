@@ -16,7 +16,7 @@ $(ALL): %: Makefile.%
 
 Makefile.%: tests/%.c latest
 	@ELF_FILE=$(abspath build/$*-$(ARCH).elf); \
-	/bin/echo -e "NAME = $*\nSRCS = $<\nELF_FILE = $$ELF_FILE\ninclude $${AM_HOME}/Makefile" > $@
+	/bin/echo -e "NAME = $*\nSRCS = $<\nELF_FILE = $$ELF_FILE\ninclude $${VEX_AM_HOME}/Makefile" > $@
 	@if make -s -f $@ ARCH=$(ARCH) $(MAKECMDGOALS); then \
 		printf "[%14s] $(COLOR_GREEN)PASS$(COLOR_NONE)\n" $* >> $(RESULT); \
 	else \

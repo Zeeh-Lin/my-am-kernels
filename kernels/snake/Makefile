@@ -1,3 +1,3 @@
 NAME = snake
 SRCS = snake.c
-include $(AM_HOME)/Makefile
+include $(VEX_AM_HOME)/Makefile

@@ -1,6 +1,6 @@
 NAME = alutest
 SRCS = build/alu_test.c
-include $(AM_HOME)/Makefile
+include $(VEX_AM_HOME)/Makefile
 
 GENERATOR = build/gen_alu_test
 

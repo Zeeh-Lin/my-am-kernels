@@ -1,3 +1,3 @@
 NAME = amtest
 SRCS = $(shell find src/ -name "*.[cS]")
-include $(AM_HOME)/Makefile
+include $(VEX_AM_HOME)/Makefile

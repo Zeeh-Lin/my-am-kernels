@@ -1,3 +1,3 @@
 NAME = hello
 SRCS = hello.c
-include $(AM_HOME)/Makefile
+include $(VEX_AM_HOME)/Makefile

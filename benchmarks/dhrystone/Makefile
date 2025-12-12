@@ -1,3 +1,3 @@
 NAME = dhrystone
 SRCS = dry.c
-include $(AM_HOME)/Makefile
+include $(VEX_AM_HOME)/Makefile

@@ -1,3 +1,3 @@
 NAME = slider
 SRCS = main.c image.S
-include $(AM_HOME)/Makefile
+include $(VEX_AM_HOME)/Makefile
