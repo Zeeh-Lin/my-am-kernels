@@ -9,7 +9,7 @@ AUDIO = build/audio.pcm
 
 NAME = bad-apple
 SRCS = bad-apple.c resources.S
-include $(VEX_AM_HOME)/Makefile
+include $(VUT_AM_HOME)/Makefile
 
 CFLAGS  += -DVIDEO_ROW=$(VIDEO_ROW) -DVIDEO_COL=$(VIDEO_COL) \
            -DAUDIO_FREQ=$(AUDIO_FREQ) -DAUDIO_CHANNEL=$(AUDIO_CHANNEL)

@@ -1,3 +1,3 @@
 NAME = demo
 SRCS = $(shell find src -name "*.c")
-include $(VEX_AM_HOME)/Makefile
+include $(VUT_AM_HOME)/Makefile
